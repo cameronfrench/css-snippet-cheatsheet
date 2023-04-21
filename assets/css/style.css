@@ -1,41 +1,38 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: rgb(46, 46, 46);
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  color: rgba(0, 242, 255, 0.72)
+  color: rgba(0, 242, 255, 0.72);
 }
 
-header {
+.CSS {
   display: flex; 
   flex-direction: column;
   margin-top: 25px;  
-  align-items: center;
+  align-items: center; 
 }
 
 main {
   display: flex;
-  flex-wrap: wrap; 
-  margin: 15%;
-  padding: 10px;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: flex-start;
-  border-radius: 7%;
-  }
+  margin: 5px 55px 5px 55px;
 
-.main header h1 {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px;
-}
+  }
 
 .box {
   border-style: dotted;
   border-width: 5px;
-  padding: 10px;
-  margin: 20px;
-  flex: 0 0 300px;
-  border-radius: 15%;
+  width: 400px;
+  height: 100px;
+  padding: 50px;
+  text-align: center; 
+  border-radius: 10px 10px 10px 10px;
+  margin: 25px auto; 
   }
+
+.box header {
+  border-style: solid; 
+  border-width: 1px; 
+  padding: 10px; 
+  border-radius: 10px 10px 10px 10px;
+}

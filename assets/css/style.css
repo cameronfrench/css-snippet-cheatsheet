@@ -26,9 +26,11 @@ main {
   box-sizing: border-box;
   width: 500px;
   height: auto;
-  padding: 40px; 
+  padding: 35px; 
   border: 2px dashed; 
   border-radius: 5px 5px 5px 5px;
+  color: white; 
+  transition: all 0.5s ease-in-out; 
 }
 
 .box header {
@@ -43,14 +45,24 @@ main {
   z-index: 1;
   background-color: rgb(46, 46, 46);;
   margin-top: -55px; 
+  color: rgba(0, 242, 255, 0.72);
 }
 
 .box > pre {
-  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto; 
+  color: white; 
   border-radius: 5px 5px 5px 5px;
-  padding: 10px; 
   background-image: linear-gradient(
-    rgba(0, 242, 255, 0.72) 0%,
+    rgba(0, 242, 255, 0.32) 30%,
     rgba(0, 242, 255, 0.72) 100%
   );
+}
+
+.box:hover {
+  box-shadow: inset 0px 0px 8px
+  rgba(0, 242, 255, 0.72), 0 0 15px
+  rgba(0, 242, 255, 0.72);
 }
